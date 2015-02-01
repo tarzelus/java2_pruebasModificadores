@@ -1,9 +1,9 @@
 package figuras;
 import figuras.*; //importacion de todas las clases del paquete
 
-import java.util.Scanner;
-import java.util.Hashtable;
-import java.util.Enumeration;
+//import java.util.Scanner;
+//import java.util.Hashtable;
+//import java.util.Enumeration;
 public class Main {
 	public static void main (String args[])	{
 		char opcion;
