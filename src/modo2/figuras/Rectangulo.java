@@ -3,12 +3,14 @@ public class Rectangulo extends FiguraGeometrica {
 
 	public Rectangulo(){};
 	
+	//tienen qu ser definidas como publicas para poder acceder desde el main 
 	public Rectangulo(double base, double altura) {
 		setNombre("rectangulo");
 		setBase(base);
 		setAltura(altura);
 	}
 		
+	
 	@Override public double area() {
 		double area = getBase()*getAltura();
 		return area;

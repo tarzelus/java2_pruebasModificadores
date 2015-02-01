@@ -3,6 +3,7 @@ public abstract class FiguraGeometrica {
 	protected String nombre;
 	protected Double base, altura;
 
+	/*public protected y defaut no sirven por que no se podria acceder a los metodos desd el main*/
 	public void setBase(double base) {
 		this.base = base;
 	 }	

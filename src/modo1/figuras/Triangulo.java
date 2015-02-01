@@ -8,12 +8,13 @@ public class Triangulo extends FiguraGeometrica {
 		setBase(base);
 		setAltura(altura);		
 	}
-
+	/*public, default (adecuado default por que es el mas restrictivo)*/
 	@Override public double area(){
 		double area = getBase()*getAltura()/2;
 		return area;
 	}
 	//Triángulo equilatero
+	/*public, default (adecuado default por que es el mas restrictivo)*/
 	@Override public double perimetro() {
 		double peri = getBase()*3;
 		return peri;

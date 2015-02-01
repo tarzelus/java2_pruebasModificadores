@@ -1,20 +1,20 @@
 package modo1.figuras;
 public class Rectangulo extends FiguraGeometrica {
 
-	public Rectangulo(){};
+	protected Rectangulo(){};
 	
-	public Rectangulo(double base, double altura) {
+	protected Rectangulo(double base, double altura) {
 		setNombre("rectangulo");
 		setBase(base);
 		setAltura(altura);
 	}
-		
-	@Override public double area() {
+		/*public, default (adecuado default por que es el mas restrictivo)*/
+	@Override protected  double area() {
 		double area = getBase()*getAltura();
 		return area;
 	}
-
-	@Override public double perimetro() {
+	   /*public, default (adecuado default por que es el mas restrictivo)*/
+	@Override protected double perimetro() {
 		double peri = 2*getBase()+2*getAltura();
 		return peri;
 	}

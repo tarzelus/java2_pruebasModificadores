@@ -3,6 +3,7 @@ public class Triangulo extends FiguraGeometrica {
 
 	public Triangulo(){};
 	
+	//tienen qu ser definidas como publicas para poder acceder desde el main 
 	public Triangulo(double base, double altura) {
 		setNombre("Triangulo");
 		setBase(base);
