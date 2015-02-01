@@ -1,4 +1,4 @@
-package figuras;
+package modo2.figuras;
 public class Rectangulo extends FiguraGeometrica {
 
 	public Rectangulo(){};

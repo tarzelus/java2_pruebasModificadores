@@ -1,7 +1,7 @@
-package figuras;
+package modo2.figuras;
 public abstract class FiguraGeometrica {
-	private String nombre;
-	private Double base, altura;
+	protected String nombre;
+	protected Double base, altura;
 
 	public void setBase(double base) {
 		this.base = base;
@@ -25,7 +25,7 @@ public abstract class FiguraGeometrica {
 	}
 	
 	public abstract double area();
-	protected abstract double perimetro();
+	public abstract double perimetro();
 	
 	public void mostrar() {
 		System.out.println("\nDatos de la figura geometrica: ");

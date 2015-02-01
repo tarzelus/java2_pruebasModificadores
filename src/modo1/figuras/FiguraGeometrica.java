@@ -1,4 +1,4 @@
-package figuras;
+package modo1.figuras;
 public abstract class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;

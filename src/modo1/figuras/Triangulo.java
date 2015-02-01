@@ -1,4 +1,4 @@
-package figuras;
+package modo1.figuras;
 public class Triangulo extends FiguraGeometrica {
 
 	public Triangulo(){};
