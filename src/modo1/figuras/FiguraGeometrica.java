@@ -1,7 +1,7 @@
 package modo1.figuras;
 public abstract class FiguraGeometrica {
 	private String nombre;
-	private Double base, altura;
+	public Double base, altura, radio;
 	
 	/*public, default (adecuado default por que es el mas restrictivo en todos los metodos)*/
 	
@@ -24,6 +24,13 @@ public abstract class FiguraGeometrica {
 	 }
 	protected String getNombre() {
 		return nombre;
+	}
+
+	protected void setRadio(double radio) {
+		this.radio = radio;
+	 }
+	protected double getRadio() {
+		return radio;
 	}
 	
 	protected abstract double area();

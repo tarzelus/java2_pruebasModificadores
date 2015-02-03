@@ -1,5 +1,4 @@
 package modo1.figuras;
-import modo1.figuras.*; //importacion de todas las clases del paquete
 
 import java.util.Scanner;
 import java.util.Hashtable;
@@ -45,6 +44,17 @@ public class Main {
 				
 				contador++;
 				historial.put(contador,rectangulo);
+			}
+			else if(opcion=='C'||opcion=='c') {
+				System.out.print("\ningresar radio: ");
+				double radio = sc.nextDouble();
+ 
+				Circulo circulo = new Circulo(radio);
+
+				circulo.mostrar();
+				
+				contador++;
+				historial.put(contador,circulo);
 			}
 			else {
 				System.out.println("\nVa a ser que no has escrito bien...");
